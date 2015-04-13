@@ -23,6 +23,11 @@ Router.route('/alumni', {
   controller: 'AlumniController'
 });
 
+Router.route('/alumni/everyone', {
+  name: 'alumniEveryone',
+  controller: 'AlumniEveryoneController'
+});
+
 Router.route('/photos', {
   name: 'photos',
   controller: 'PhotosController'
